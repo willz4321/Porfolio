@@ -15,6 +15,7 @@ body * {
 }
 .hover-icon:hover {
   color: #ffee58;
+  transition: color 0.5s ease;
 }
 .Link-pers{
  
@@ -23,4 +24,32 @@ body * {
   padding: 5px;
   border-radius: 3px;
   text-decoration: none;
+}
+.Link-pers:hover{
+  background-color: #fff386;
+  transition: background-color 0.5s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.Logos{
+  width: 120px;
+  height: 30px;
+  background-color: rgb(208, 247, 243);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Logos:hover{
+  background-color: #dd98eb;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+.text-contact{
+  color: #25bb96;
+  text-decoration: none;
+  font-size: 13px;
+}
+.text-contact:hover{
+  color: #dd98eb;
+  transition: color 0.3s ease;
 }
