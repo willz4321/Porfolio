@@ -49,8 +49,8 @@ export const Skills = () => {
                   <CardActions style={{justifyContent: "center"}}>
                   <FontAwesomeIcon icon={faNode} size="2xl" style={{color: "#22c343",}} />
                   <img src="../src/assets/pngegg.png" alt="Mongo" style={{width: "40px", height: "40px"}} />
-                  <img src="../src/assets/pngwing.com.png" alt="Mongo" style={{width: "40px", height: "40px"}} />
-                  <img src="../src/assets/visual.png" alt="Mongo" style={{width: "40px", height: "40px"}} /> 
+                  <img src="../src/assets/pngwing.com.png" alt="sql" style={{width: "40px", height: "40px"}} />
+                  <img src="../src/assets/visual.png" alt="visual" style={{width: "40px", height: "40px"}} /> 
                   <FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#fff176", gap:'30px' }} />   
                   </CardActions>
                </Grid> 

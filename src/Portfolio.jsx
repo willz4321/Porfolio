@@ -9,9 +9,10 @@ export const Portfolio = () => {
     <> 
     
     <Grid container  style={{ height: "100vh", }}>
+      
         <Grid item container style={{
            height: "100vh", 
-           backgroundColor: "#5c6bc0", 
+           backgroundColor: "#481a75", 
            position: "fixed", 
            width:"20vw"}}
 
@@ -22,16 +23,17 @@ export const Portfolio = () => {
                 <Navbar/>
         </Grid>
         <Grid item container style={{ 
-          backgroundColor: "#3f51b5", 
+          backgroundColor: "#311250", 
           gap: '30px', 
           paddingLeft: "40px", 
           width: "calc(100vw - 20vw)", 
-          marginLeft: "20vw"}}
-
+          marginLeft: "20vw",
+          position: "relative" }}
+               
                 direction="column"
                 justifyContent="center"
                 alignItems="flex-start">
-
+                  
                   <Facundo/>
             
                  <Proyect/>
@@ -41,8 +43,9 @@ export const Portfolio = () => {
                  <Skills/>
           
                  <Contact/>
-        
+                
         </Grid>
+      
     </Grid>
 
     </>
