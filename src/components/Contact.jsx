@@ -41,7 +41,7 @@ export const Contact = () => {
                   <CardActions style={{justifyContent: "start"}} >  
 
                   <div className='Logos'>
-                    <img src="../src/assets/logo-Material.png" alt="Material" style={{ width: "40px", height: "40px" }} />
+                    <img src="../assets/logo-Material.png" alt="Material" style={{ width: "40px", height: "40px" }} />
                     <Typography variant="h8" style={{ marginLeft: "10px" }}>Material</Typography>
                   </div>
 

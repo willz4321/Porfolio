@@ -10,7 +10,7 @@ export const Navbar = () => {
       };
   return (
     <>
-     <img src="./src/assets/perfil.png" alt="facundo" style={{width: "180px", height: "180px"}} />
+     <img src="../assets/perfil.png" alt="facundo" style={{width: "180px", height: "180px"}} />
     <ul style={{cursor: "pointer"}}>
         <Link to="facundo" smooth={true} duration={1000} spy={true}
     onSetActive={() => handleSetActive('facundo')}><Typography variant="h6"  style={{fontFamily: 'Bebas Neue, cursive', color: activeLink === 'facundo' ? '#33c9dc' : '#c5cae9',}}>Facundo</Typography></Link>

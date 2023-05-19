@@ -30,7 +30,7 @@ export const Educacion = () => {
                    <h6 style={{fontFamily: "Bruno Ace", color: "#c5cae9", paddingTop: "18px", paddingBottom: "10px"}}>Curso de 38 horas.</h6>
                  </Grid>
                  <Grid  style={{ width: "120px",display: "flex", justifyContent: "center", paddingTop: "5px"}}>
-                   <a href='../src/assets/certificado-Web.png' target='_blank' className='Link-pers'>Certificado</a>
+                   <a href='../assets/certificado-Web.png' target='_blank' className='Link-pers'>Certificado</a>
                  </Grid>
                </Grid>
 
@@ -44,7 +44,7 @@ export const Educacion = () => {
                    <h6 style={{fontFamily: "Bruno Ace", color: "#c5cae9", paddingTop: "18px", paddingBottom: "10px"}}>Curso de 34 horas.</h6>
                  </Grid>
                  <Grid  style={{ width: "120px",display: "flex", justifyContent: "center", paddingTop: "5px"}}>
-                   <a href='../src/assets/certificado-JS.png' target='_blank' className='Link-pers'>Certificado</a>
+                   <a href='../assets/certificado-JS.png' target='_blank' className='Link-pers'>Certificado</a>
                  </Grid>
                </Grid>  
 
@@ -58,7 +58,7 @@ export const Educacion = () => {
                    <h6 style={{fontFamily: "Bruno Ace", color: "#c5cae9", paddingTop: "18px", paddingBottom: "10px"}}>Curso de 54 horas.</h6>
                  </Grid>
                  <Grid  style={{ width: "120px",display: "flex", justifyContent: "center", paddingTop: "5px"}}>
-                   <a href='../src/assets/certificado-React.jpg' target='_blank' className='Link-pers'>Certificado</a>
+                   <a href='../assets/certificado-React.jpg' target='_blank' className='Link-pers'>Certificado</a>
                  </Grid>
                </Grid>  
                 
@@ -72,7 +72,7 @@ export const Educacion = () => {
                    <h6 style={{fontFamily: "Bruno Ace", color: "#c5cae9", paddingTop: "18px", paddingBottom: "10px"}}>Curso de 16 horas.</h6>
                  </Grid>
                  <Grid  style={{ width: "120px",display: "flex", justifyContent: "center", paddingTop: "5px"}}>
-                   <a href='../src/assets/certificado-Sql.jpg' target='_blank' className='Link-pers'>Certificado</a>
+                   <a href='../assets/certificado-Sql.jpg' target='_blank' className='Link-pers'>Certificado</a>
                  </Grid>
                </Grid>  
                

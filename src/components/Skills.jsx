@@ -26,7 +26,7 @@ export const Skills = () => {
                   <FontAwesomeIcon icon={faCss3Alt} size="2xl" style={{color: "#1160e8",}} />
                   <FontAwesomeIcon icon={faJava} size="2xl" style={{color: "#e31616",}} />
                   <JavascriptIcon sx={{ color: "#f0e80f", fontSize: "60px" }} />
-                  <img src="../src/assets/c++.png" alt="c++" style={{width: "40px", height: "40px"}} />
+                  <img src="../assets/c++.png" alt="c++" style={{width: "40px", height: "40px"}} />
                   </CardActions>
                </Grid>
 
@@ -36,7 +36,7 @@ export const Skills = () => {
                   </Typography>
                   <CardActions style={{justifyContent: "flex-start"}}>
                     <FontAwesomeIcon icon={faBootstrap} size="2xl" style={{color: "#67169c",}} />
-                    <img src="../src/assets/logo-Material.png" alt="Material" style={{width: "40px", height: "40px"}} />
+                    <img src="../assets/logo-Material.png" alt="Material" style={{width: "40px", height: "40px"}} />
                     <FontAwesomeIcon icon={faReact} size="2xl" style={{color: "#0f3e8f",}} />
                     
                   </CardActions>
@@ -48,9 +48,9 @@ export const Skills = () => {
                   </Typography>
                   <CardActions style={{justifyContent: "center"}}>
                   <FontAwesomeIcon icon={faNode} size="2xl" style={{color: "#22c343",}} />
-                  <img src="../src/assets/pngegg.png" alt="Mongo" style={{width: "40px", height: "40px"}} />
-                  <img src="../src/assets/pngwing.com.png" alt="sql" style={{width: "40px", height: "40px"}} />
-                  <img src="../src/assets/visual.png" alt="visual" style={{width: "40px", height: "40px"}} /> 
+                  <img src="../assets/pngegg.png" alt="Mongo" style={{width: "40px", height: "40px"}} />
+                  <img src="../assets/pngwing.com.png" alt="sql" style={{width: "40px", height: "40px"}} />
+                  <img src="../assets/visual.png" alt="visual" style={{width: "40px", height: "40px"}} /> 
                   <FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#fff176", gap:'30px' }} />   
                   </CardActions>
                </Grid> 
