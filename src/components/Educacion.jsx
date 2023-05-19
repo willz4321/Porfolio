@@ -64,7 +64,7 @@ export const Educacion = () => {
                 
                <Grid >
                 <Grid>
-                <Typography variant='h4' style={{fontFamily: "Bebas Neue, cursive", color: "#ffee58"}}>Base de datos no relacionables</Typography>
+                <Typography variant='h4' style={{fontFamily: "Bebas Neue, cursive", color: "#ffee58"}}>Base de datos relacionables</Typography>
                 </Grid>
                 
                  <Grid>
