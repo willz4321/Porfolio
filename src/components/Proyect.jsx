@@ -22,7 +22,7 @@ export const Proyect = () => {
             component="img"
             alt="green iguana"
             height="150"
-            src="../assets/pro1.png"
+            src="../src/assets/pro1.png"
             />
             <CardContent style={{backgroundColor: "#481a75"}}>
             <Typography gutterBottom variant="h5" component="div" style={{fontFamily: "Bebas Neue, cursive", color: "#ffee58"}}>
@@ -52,7 +52,7 @@ export const Proyect = () => {
             component="img"
             alt="green iguana"
             height="150"
-            src="../assets/calendar.png"
+            src="../src/assets/calendar.png"
             />
             <CardContent style={{backgroundColor: "#481a75"}}>
             <Typography gutterBottom variant="h5" component="div" style={{fontFamily: "Bebas Neue, cursive", color: "#ffee58"}}>
@@ -68,7 +68,7 @@ export const Proyect = () => {
             <FontAwesomeIcon icon={faReact} size="2xl" style={{color: "#0f3e8f",}} />
             <FontAwesomeIcon icon={faBootstrap} size="2xl" style={{color: "black",}} />
             <FontAwesomeIcon icon={faNode} size="2xl" style={{color: "#22c343",}} />
-            <img src="../assets/pngegg.png" alt="Mongo" style={{width: "40px", height: "40px"}} />
+            <img src="../src/assets/pngegg.png" alt="Mongo" style={{width: "40px", height: "40px"}} />
             </CardActions>
             <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center", paddingTop: "1px"}}>
             <a underline="none" href="https://willz4321.github.io/01-Pokedex-App/" target="_blank" rel="noopener"><AttachFileIcon sx={{ color: "#ef6694" }} className='hover-icon'/> </a>
