@@ -5,7 +5,7 @@
   "homepage": "http://willz4321.github.io/Porfolio",
   "type": "module",
   "scripts": {
-    "predeply": "npm run build",
+    "predeplay": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
