@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://willz4321.github.io/Porfolio/",
+  "homepage": "http://willz4321.github.io/Porfolio",
   "type": "module",
   "scripts": {
     "predeply": "npm run build",
