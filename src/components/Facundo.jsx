@@ -44,7 +44,7 @@ export const Facundo = () => {
             <div style={{maxWidth: "700px"}}><Typography variant='h7' style={{fontFamily: "Bruno Ace", color: "#829baf"}}>Soy Estudiante de Ingenieria en Informatica en FACET - UNT (universidad nacional de tucuman) y developer freelance, 25 años de edad, residencia en San miguel de Tucuman.</Typography></div>
             
             <Grid  style={{ width: "120px",display: "flex", justifyContent: "center", paddingTop: "5px"}}>
-                   <a href='../src/assets/cv-Programador.pdf' target='_blank' className='Link-pers'>Descarga mi CV</a>
+                   <a href='./assets/cv-Programador.pdf' target='_blank' className='Link-pers'>Descarga mi CV</a>
             </Grid>
 
             <Grid   container 
