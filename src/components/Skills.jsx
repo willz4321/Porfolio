@@ -1,9 +1,7 @@
 import { faBootstrap, faCss3Alt, faGithub, faHtml5, faJava, faNode, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { CardActions, Grid, Typography } from '@mui/material'
-import GitHubIcon from '@mui/icons-material/GitHub';
 import JavascriptIcon from '@mui/icons-material/Javascript';
-import React from 'react'
 
 export const Skills = () => {
   return (
@@ -38,7 +36,7 @@ export const Skills = () => {
                     <FontAwesomeIcon icon={faBootstrap} size="2xl" style={{color: "#67169c",}} />
                     <img src="./assets/logo-Material.png" alt="Material" style={{width: "40px", height: "40px"}} />
                     <FontAwesomeIcon icon={faReact} size="2xl" style={{color: "#0f3e8f",}} />
-                    
+                    <img src="./assets/spring.png" alt="spring" style={{width: "40px", height: "40px"}} />
                   </CardActions>
                </Grid>
                   

@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Card, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material'
 import AttachFileIcon from '@mui/icons-material/AttachFile';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import React from 'react'
 
 export const Proyect = () => {
   return (

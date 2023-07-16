@@ -1,5 +1,4 @@
 import { Grid, Typography } from '@mui/material'
-import React from 'react'
 
 export const Educacion = () => {
   return (
@@ -72,9 +71,21 @@ export const Educacion = () => {
                 
                <Grid >
                 <Grid>
+                <Typography variant='h4' style={{fontFamily: "Bebas Neue, cursive", color: "#ffee58"}}>Programacion Full Stack Java</Typography>
+                </Grid>
+                 <Grid>
+                   <Typography style={{fontFamily: "Bruno Ace", color: "#c5cae9"}}>Curso de Java: Jakarta EE y Spring</Typography>
+                   <h6 style={{fontFamily: "Bruno Ace", color: "#c5cae9", paddingTop: "18px", paddingBottom: "10px"}}>Curso de 127 horas.</h6>
+                 </Grid>
+                 <Grid  style={{ width: "120px",display: "flex", justifyContent: "center", paddingTop: "5px"}}>
+                   <a href='./assets/certificado-java.jpg' target='_blank' className='Link-pers'>Certificado</a>
+                 </Grid>
+               </Grid> 
+
+               <Grid >
+                <Grid>
                 <Typography variant='h4' style={{fontFamily: "Bebas Neue, cursive", color: "#ffee58"}}>Base de datos relacionables</Typography>
                 </Grid>
-                
                  <Grid>
                    <Typography style={{fontFamily: "Bruno Ace", color: "#c5cae9"}}>Curso de Sql Server hecho en Udemy</Typography>
                    <h6 style={{fontFamily: "Bruno Ace", color: "#c5cae9", paddingTop: "18px", paddingBottom: "10px"}}>Curso de 16 horas.</h6>
