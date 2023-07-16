@@ -36,7 +36,7 @@ export const Skills = () => {
                     <FontAwesomeIcon icon={faBootstrap} size="2xl" style={{color: "#67169c",}} />
                     <img src="./assets/logo-Material.png" alt="Material" style={{width: "40px", height: "40px"}} />
                     <FontAwesomeIcon icon={faReact} size="2xl" style={{color: "#0f3e8f",}} />
-                    <img src="./assets/spring.png" alt="spring" style={{width: "40px", height: "40px"}} />
+                    <img src="./src/assets/spring.png" alt="spring" style={{width: "60px", height: "40px"}} />
                   </CardActions>
                </Grid>
                   
