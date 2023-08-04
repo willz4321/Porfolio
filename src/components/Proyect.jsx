@@ -16,10 +16,10 @@ export const Proyect = () => {
         <Typography variant='h2' style={{fontFamily: "initial" ,color: "#ffee58"}}>PORTFOLIO</Typography>
         <Grid  container direction="row" justifyContent="flex-start" alignItems="center" >
         
-        <Card sx={{ maxWidth: 400, marginRight: '1rem', border: "solid white 1px" }} style={{height: "410px"}}>
+        <Card sx={{ maxWidth: 400, marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%"}}>
             <CardMedia
             component="img"
-            alt="green iguana"
+            alt="pokedex"
             height="150"
             src="./assets/pro1.png"
             />
@@ -27,7 +27,7 @@ export const Proyect = () => {
             <Typography gutterBottom variant="h5" component="div" style={{fontFamily: "Bebas Neue, cursive", color: "#ffee58"}}>
                 Pokedex
             </Typography>
-            <Typography variant="body2" color="text.secondary" style={{fontFamily: "Bruno Ace", color: "#33c9dc"}}>
+            <Typography variant="body2" color="text.secondary" style={{fontFamily: "Bruno Ace", color: "#33c9dc", height: '140px'}}>
                 Apliacacion web desarrollada con react donde se realizan peticiones
                 a la API PokeApi brindando informacion y estadiscas del pokemon seleccionado
                 o buscado.
@@ -46,10 +46,10 @@ export const Proyect = () => {
         </Card>
 
 
-        <Card sx={{ maxWidth: 400,marginRight: '1rem', border: "solid white 1px" }} style={{height: "410px"}}>
+        <Card sx={{ maxWidth: 400,marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%"}}>
             <CardMedia
             component="img"
-            alt="green iguana"
+            alt="calendario"
             height="150"
             src="./assets/calendar.png"
             />
@@ -57,7 +57,7 @@ export const Proyect = () => {
             <Typography gutterBottom variant="h5" component="div" style={{fontFamily: "Bebas Neue, cursive", color: "#ffee58"}}>
                 Calendario
             </Typography>
-            <Typography variant="body2" color="text.secondary" style={{fontFamily: "Bruno Ace", color: "#33c9dc"}}>
+            <Typography variant="body2" color="text.secondary" style={{fontFamily: "Bruno Ace", color: "#33c9dc", height: '140px'}}>
                 Calendario web desarrollada con react donde su funcionalidad es ver, anadir, modificar y eliminar tareas en el calendario, la misma cuenta con login de usuario.
             </Typography>
             </CardContent>
@@ -70,10 +70,40 @@ export const Proyect = () => {
             <img src="./assets/pngegg.png" alt="Mongo" style={{width: "40px", height: "40px"}} />
             </CardActions>
             <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center", paddingTop: "1px"}}>
-            <a underline="none" href="https://willz4321.github.io/01-Pokedex-App/" target="_blank" rel="noopener"><AttachFileIcon sx={{ color: "#ef6694" }} className='hover-icon'/> </a>
             <a underline="none" href="https://github.com/willz4321/10-Calendar" target="_blank" rel="noopener"><GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon'/> </a>
             <a underline="none" href="https://github.com/willz4321/11-calendar-backend" target="_blank" rel="noopener"><GitHubIcon sx={{ color: "black" }} className='hover-icon'/> </a>
             </CardActions>
+        </Card>
+
+        <Card sx={{ maxWidth: 400,marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%" }}>
+            
+                <CardMedia
+                component="img"
+                alt="tienda web"
+                height="150"
+                src="./assets/tienda-web.png"
+                />
+                <CardContent style={{backgroundColor: "#481a75"}}>
+                <Typography gutterBottom variant="h5" component="div" style={{fontFamily: "Bebas Neue, cursive", color: "#ffee58"}}>
+                    Ghost store
+                </Typography>
+                <Typography variant="body2" color="text.secondary" style={{fontFamily: "Bruno Ace", color: "#33c9dc", height: '140px'}}>
+                    Tienda online desarrollada con react + spring con conexion a base de datos MySql para gestionar compras y seleccion de productos.
+                </Typography>
+                </CardContent>
+                <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center"}}>
+                <FontAwesomeIcon icon={faHtml5} size="2xl" style={{color: "#f50a0a",}} />
+                <FontAwesomeIcon icon={faCss3Alt} size="2xl" style={{color: "#1160e8",}} />
+                <FontAwesomeIcon icon={faReact} size="2xl" style={{color: "#0f3e8f",}} />
+                <FontAwesomeIcon icon={faBootstrap} size="2xl" style={{color: "black",}} />
+                <img src="./assets/spring.png" alt="spring" style={{width: "60px", height: "40px"}} />
+                <img src="./assets/pngwing.com.png" alt="sql" style={{width: "40px", height: "40px"}} />
+                </CardActions>
+                <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center", paddingTop: "1px"}}>
+                <a underline="none" href="https://github.com/willz4321/Tienda-web" target="_blank" rel="noopener"><GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon'/> </a>
+                <a underline="none" href="https://github.com/willz4321/Tienda-web-backend" target="_blank" rel="noopener"><GitHubIcon sx={{ color: "black" }} className='hover-icon'/> </a>
+                </CardActions>
+         
         </Card>
 
         </Grid>
