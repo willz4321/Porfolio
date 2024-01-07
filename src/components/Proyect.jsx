@@ -187,7 +187,7 @@ export const Proyect = () => {
         </Grid>
       </div>
     </Grid>
-    <Tooltip id="tooltip" />
+    <Tooltip id="tooltip"/>
 </>
   )
 }
