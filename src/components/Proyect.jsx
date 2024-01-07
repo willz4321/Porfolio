@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Card, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material'
 import AttachFileIcon from '@mui/icons-material/AttachFile';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Tooltip } from 'react-tooltip';
 
 export const Proyect = () => {
   return (
@@ -22,9 +23,9 @@ export const Proyect = () => {
         direction="row" 
         justifyContent="flex-start" 
         alignItems="center" 
-        style={{ width: "100vw", paddingBottom: '10px'}}>
+        style={{ width: "2000px", paddingBottom: '10px', flexWrap: "nowrap", overflow: "auto"}}>
         
-        <Card sx={{ maxWidth: 400, marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%", }}>
+        <Card sx={{ width: 400, marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%", }}>
             <CardMedia
             component="img"
             alt="pokedex"
@@ -48,13 +49,14 @@ export const Proyect = () => {
             <FontAwesomeIcon icon={faBootstrap} size="2xl" style={{color: "black",}} />
             </CardActions>
             <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center"}}>
-            <a underline="none" href="https://willz4321.github.io/01-Pokedex-App/" target="_blank" rel="noopener"> <AttachFileIcon sx={{ color: "#ef6694" }} className='hover-icon'/> </a>
-            <a underline="none" href="https://github.com/willz4321/01-Pokedex-App" target="_blank" rel="noopener"> <GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon'/> </a>
+            <a  href="https://willz4321.github.io/01-Pokedex-App/" target="_blank" rel="noopener noreferrer"> <AttachFileIcon sx={{ color: "#33c9dc" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Web'/> </a>
+            
+            <a  href="https://github.com/willz4321/01-Pokedex-App" target="_blank" rel="noopener noreferrer"> <GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Repositorio'/> </a>
             </CardActions>
         </Card>
 
 
-        <Card sx={{ maxWidth: 400,marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%"}}>
+        <Card sx={{ width: 400,marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%"}}>
             <CardMedia
             component="img"
             alt="calendario"
@@ -78,12 +80,14 @@ export const Proyect = () => {
             <img src="./assets/pngegg.png" alt="Mongo" style={{width: "40px", height: "40px"}} />
             </CardActions>
             <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center", paddingTop: "1px"}}>
-            <a underline="none" href="https://github.com/willz4321/10-Calendar" target="_blank" rel="noopener"><GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon'/> </a>
-            <a underline="none" href="https://github.com/willz4321/11-calendar-backend" target="_blank" rel="noopener"><GitHubIcon sx={{ color: "black" }} className='hover-icon'/> </a>
+            <a  href="https://github.com/willz4321/10-Calendar" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Frontend'/> </a>
+           
+            <a  href="https://github.com/willz4321/11-calendar-backend" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: "black" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Backend' /> </a>
+           
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 400,marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%" }}>
+        <Card sx={{ width: 400,marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%" }}>
             
                 <CardMedia
                 component="img"
@@ -108,13 +112,14 @@ export const Proyect = () => {
                 <img src="./assets/pngwing.com.png" alt="sql" style={{width: "40px", height: "40px"}} />
                 </CardActions>
                 <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center", paddingTop: "1px"}}>
-                <a underline="none" href="https://github.com/willz4321/Tienda-web" target="_blank" rel="noopener"><GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon'/> </a>
-                <a underline="none" href="https://github.com/willz4321/Tienda-web-backend" target="_blank" rel="noopener"><GitHubIcon sx={{ color: "black" }} className='hover-icon'/> </a>
+                <a href="https://ghoststore-sz.netlify.app" target="_blank" rel="noopener noreferrer"> <AttachFileIcon sx={{ color: "#33c9dc" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Web'/> </a>
+                <a  href="https://github.com/willz4321/Tienda-web" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Frontend'/> </a>
+                <a href="https://github.com/willz4321/Tienda-web-backend" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: "black" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Backend'/> </a>
                 </CardActions>
          
         </Card>
 
-        <Card sx={{ maxWidth: 400,marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%" }}>
+        <Card sx={{ width: 400,marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%" }}>
             
                 <CardMedia
                 component="img"
@@ -139,16 +144,50 @@ export const Proyect = () => {
                 <img src="./assets/pngegg.png" alt="Mongo" style={{width: "40px", height: "40px"}} />
                 </CardActions>
                 <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center", paddingTop: "1px"}}>
-                <a underline="none" href="https://github.com/willz4321/journal-app-backend" target="_blank" rel="noopener"><GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon'/> </a>
-                <a underline="none" href="https://github.com/willz4321/Tienda-web-backend" target="_blank" rel="noopener"><GitHubIcon sx={{ color: "black" }} className='hover-icon'/> </a>
+                <a href="https://willz4321.github.io/Journal-app/" target="_blank" rel="noopener noreferrer"> <AttachFileIcon sx={{ color: "#33c9dc" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Web'/> </a>
+                <a href="https://github.com/willz4321/journal-app" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Frontend'/> </a>
+                <Tooltip id='svgTooltip3'/>
+                <a  href="https://github.com/willz4321/Tienda-web-backend" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: "black" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Backend'/> </a>
                 </CardActions>
          
         </Card>
 
+        <Card sx={{ width: 400,marginRight: '1rem', border: "solid white 1px" }} style={{height: "100%" }}>
+            
+            <CardMedia
+            component="img"
+            alt="Restaurant"
+            height="150"
+            src="./assets/restaurant.png"
+            />
+            <CardContent style={{backgroundColor: "#481a75"}}>
+            <Typography gutterBottom variant="h5" component="div" style={{fontFamily: "Bebas Neue, cursive", color: "#ffee58"}}>
+                Restaurante
+            </Typography>
+            <Typography variant="body2" color="text.secondary" style={{fontFamily: "Bruno Ace", color: "#33c9dc", height: '140px'}}>
+                Restaurante online desarrollada con react + spring con conexion a base de datos Sql Server, con login de empleado (seleccion entre MOZO, GERENTE, CEO). Dependiendo el rol se habilitan algunas funciones u otras.
+            </Typography>
+            </CardContent>
+            <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center"}}>
+            <FontAwesomeIcon icon={faHtml5} size="2xl" style={{color: "#f50a0a",}} />
+            <FontAwesomeIcon icon={faCss3Alt} size="2xl" style={{color: "#1160e8",}} />
+            <FontAwesomeIcon icon={faBootstrap} size="2xl" style={{color: "black",}} />
+            <FontAwesomeIcon icon={faReact} size="2xl" style={{color: "#0f3e8f",}} />
+            <img src="./assets/spring.png" alt="spring" style={{width: "60px", height: "40px"}} />
+            <img src="./assets/pngwing.com.png" alt="sql" style={{width: "40px", height: "40px"}} />
+            </CardActions>
+            <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center", paddingTop: "1px"}}>
+            <a href="https://restaurantsz.netlify.app" target="_blank" rel="noopener noreferrer"> <AttachFileIcon sx={{ color: "#33c9dc" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Web'/> </a>
+            <a href="https://github.com/willz4321/journal-app" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Frontend'/> </a>
+            <a  href="https://github.com/willz4321/restaurante-backend" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: "black" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Backend'/> </a>
+            </CardActions>
+     
+        </Card>
+
         </Grid>
-        </div>
+      </div>
     </Grid>
-   
+    <Tooltip id="tooltip" />
 </>
   )
 }
