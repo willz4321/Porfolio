@@ -80,6 +80,8 @@ export const Proyect = () => {
             <img src="./assets/pngegg.png" alt="Mongo" style={{width: "40px", height: "40px"}} />
             </CardActions>
             <CardActions style={{backgroundColor: "#481a75" ,justifyContent: "center", paddingTop: "1px"}}>
+            <a  href="https://willz4321.github.io/10-Calendar/" target="_blank" rel="noopener noreferrer"> <AttachFileIcon sx={{ color: "#33c9dc" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Web'/> </a>
+
             <a  href="https://github.com/willz4321/10-Calendar" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: "#ef6694" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Frontend'/> </a>
            
             <a  href="https://github.com/willz4321/11-calendar-backend" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: "black" }} className='hover-icon' data-tooltip-id='tooltip' data-tooltip-content='Backend' /> </a>
